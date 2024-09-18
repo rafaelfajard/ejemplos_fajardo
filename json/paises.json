@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "pais" :"colombia",
+        "codigo":"col",
+        "indicador":57,
+        "ciudades":["cali", "barranquilla", "pasto"],
+        "preseidente": {
+            "nombre":"gustavo",
+            "apellido":"petro",
+            "edad":"15",
+            "profesion":["economista", "filoso","paraco"]
+        }
+    }
+
+    {
+        "id":2,
+        "pais" :"venezuela",
+        "codigo":"ven",
+        "indicador":58,
+        "ciudades":["caracas", "maracaibo", "margaritas"],
+        "preseidente": {
+            "nombre":"gustavo",
+            "apellido":"petro",
+            "edad":"15",
+            "profesion":["economista", "filoso","paraco"]
+        }
+    }
+
+    {
+        "id":3,
+        "pais" :"peru",
+        "codigo":"pe",
+        "indicador":59,
+        "ciudades":["lima", "cusco", "arequipa"],
+        "preseidente": {
+            "nombre":"gustavo",
+            "apellido":"petro",
+            "edad":"15",
+            "profesion":["economista", "filoso","paraco"]
+        }
+
+    }
+]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form>
+        <label for="txtnum1">Numero 1:</label><br>
+        <input type="text" id="txtnum1">
+        <br><br>
+        <label for="txtnum2">Numero 2:</label><br>
+        <input type="text" id="txtnum2">
+        <br><br>
+
+        <input type="button" value="Suma" onclick="calcularsuma()"> 
+        <input type="button" value="Resta" onclick="calcularresta()">
+        <br>
+        <br>
+        <input type="button" value="Multiplicacion" onclick="calcularmultipliacion()">
+        <input type="button" value="Division" onclick="calculardivision()">
+        <br>
+        <br>
+        
+        <input type="button" value="Limpiar" onclick="limpiar()">
+        <input type="button" value="Salir" onclick="salir()">
+    </form>
+    <br><br>
+    <div id="res">
+
+    </div>
+
+    <script src="js/procesos.js"></script>
+</body>
+</html>
